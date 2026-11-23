@@ -1,0 +1,25 @@
+:root{color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#0e2a1b;--pn:#1a3d29;--fg:#f4faf6;--mut:#a9c7b4;--ac:#d7263d}
+*{box-sizing:inherit}html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;height:100%;background:var(--bg);color:var(--fg);font:15px/1.35 "Trebuchet MS",Verdana,sans-serif;overflow:hidden;touch-action:none;position:relative}
+#app{height:100%;display:flex;flex-direction:column;max-width:480px;margin:0 auto}
+#hud{display:flex;justify-content:space-between;padding:6px 12px;font-size:13px;color:var(--mut)}
+#hud b{color:var(--fg)}
+#q{margin:0 8px;padding:9px 12px;background:var(--pn);border-left:4px solid var(--ac);border-radius:6px;font-weight:700;min-height:64px;display:flex;align-items:center}
+#q.ok{border-color:#4cd08a}#q.no{border-color:#ff5252}
+canvas{flex:1;width:100%;min-height:0;display:block}
+#ov{position:absolute;inset:0;background:rgba(8,26,16,.97);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:28px 18px;gap:12px;overflow:auto;text-align:center;touch-action:pan-y}
+#ov>*{max-width:440px;width:100%}
+h1{margin:0;font-size:34px;letter-spacing:-.5px}
+button{font:inherit;font-weight:700;border:0;border-radius:8px;padding:12px 18px;background:var(--ac);color:#fff;cursor:pointer}
+button.g{background:var(--pn);color:var(--fg)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.chips button{padding:7px 12px;font-size:13px;background:var(--pn);color:var(--mut)}
+.chips button.on{background:var(--fg);color:#0e2a1b}
+.m{text-align:left;background:var(--pn);padding:8px 10px;border-radius:6px;font-size:13px}
+p{margin:0;color:var(--mut)}
+#pw{display:flex;gap:6px;justify-content:center;padding:6px 8px}
+#pw button{padding:7px 10px;font-size:12px;background:var(--pn);color:var(--fg)}
+#pw button:disabled{opacity:.35}
+input,textarea,select{font:inherit;width:100%;padding:9px;border-radius:6px;border:1px solid #3f7a57;background:#0e2a1b;color:var(--fg)}
+.lb{display:flex;justify-content:space-between}
+.lb.me{outline:2px solid var(--ac)}
