@@ -1,6 +1,6 @@
 // ===== SUPABASE LEADERBOARD: paste your own values (Supabase > Project Settings > API) =====
-const SUPABASE_URL="https://YOUR-PROJECT-ID.supabase.co";
-const SUPABASE_ANON_KEY="YOUR-ANON-KEY";
+const SUPABASE_URL="https://xstpugkjywcokdwttzzd.supabase.co";
+const SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhzdHB1Z2tqeXdjb2tkd3R0enpkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU0MjQ1MDksImV4cCI6MjExMTAwMDUwOX0.CWs7S_ihguONAp4Sa2ota_uwvpa0qPJ8h66u2cWdGjg";
 const LB_ENABLED=!/YOUR-/.test(SUPABASE_URL+SUPABASE_ANON_KEY);
 const LB_TABLE="leaderboard",NAME_MIN=2,NAME_MAX=20;
 
